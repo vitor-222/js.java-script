@@ -2,7 +2,7 @@
 
  numero.textContent =5;
 
- const botoes = document.querySelector9('.parametro-senha__botao');
+ const botoes = document.querySelectorAll('.parametro-senha__botao');
 
  console.console.log(botoes);
  
