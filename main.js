@@ -1,8 +1,14 @@
  const numetoSenha=document.querySelector('.parametro-senha__titulo');
-
- numero.textContent =5;
+ let tamanhoSenha = 12;
+ numeroSenha.textContent = tamanhoSenha
 
  const botoes = document.querySelectorAll('.parametro-senha__botao');
 
- console.console.log(botoes);
+ botoes[0].onlick = diminuiTamanho;
+ fuction diminuiTamanho(){
+tamanhoSenha = tamanhoSenha-1;
+ }
+  
+    console.console.log(botoes);    
+
  
