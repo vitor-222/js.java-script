@@ -7,6 +7,7 @@
  botoes[0].onlick = diminuiTamanho;
  fuction diminuiTamanho(){
 tamanhoSenha = tamanhoSenha-1;
+ numeroSenha.textContent = tamanhoSenha;
  }
   
     console.console.log(botoes);    
